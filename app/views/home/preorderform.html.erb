@@ -1,0 +1,46 @@
+<div class="col-md-3"></div>
+
+<div class="col-md-6">
+
+  <h1 style="color:#ECF0F1;text-align:center">Pre Order</h1>
+
+  <%= form_for(:preorder,:url=>{:action=>'preorderform_post'}) do |f| %>
+
+    <div class="form-group">
+      <%= f.text_field(:full_name, class: 'form-control', placeholder: 'Full Name') %>
+    </div>
+
+    <div class="form-group">
+      <%= f.text_field(:age, class: 'form-control', placeholder: 'Age') %>
+    </div>
+      
+    <div class="form-group">
+    <%= f.text_field(:email_address, class: 'form-control', placeholder: 'Email Address') %>
+    </div>
+
+    <div class="form-group">
+    <%= f.text_field(:phone_number, class: 'form-control', placeholder: 'Phone Number') %>
+    </div>
+
+    <div class="form-group">
+    <%= f.text_field(:city, class: 'form-control', placeholder: 'City') %>
+    </div>
+
+    <div class="form-group">
+    <%= f.text_field(:country, class: 'form-control', placeholder: 'Country') %>
+    </div>
+
+    <div class="form-group">
+    <%= f.text_field(:primary_care_physician_name, class: 'form-control', placeholder: 'Primary Care Physician Name') %>
+    </div>
+
+    <div class="form-group">
+    <%= f.text_area(:how_did_you_hear_about_this_test, class: 'form-control', placeholder: 'How did you hear about this test?') %>
+    </div>
+
+    <%= submit_tag("Proceed") %>
+
+  <% end %>
+</div>
+
+<div class="col-md-3"></div>

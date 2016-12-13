@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  full_name: MyString
+  age: MyString
+  email_address: MyString
+  phone_number: MyString
+  city: MyString
+  country: MyString
+  primary_care_physician_name: MyString
+  how_did_you_hear_about_this_test?: MyString
+
+two:
+  full_name: MyString
+  age: MyString
+  email_address: MyString
+  phone_number: MyString
+  city: MyString
+  country: MyString
+  primary_care_physician_name: MyString
+  how_did_you_hear_about_this_test?: MyString
